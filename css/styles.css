@@ -1,0 +1,68 @@
+body{
+    font-size: 16px;
+ 
+    background-color: rgb(255, 254, 254);
+    font-family: 'Oxygen', sans-serif;
+}
+h1{ color: #f14e4ebe;
+    font-family: 'PT Sans' ;
+    text-align: center;}
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+#logo-img2{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand h1{
+    font-family: 'PT Sans', serif;
+    color: rgb(80, 73, 73);
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a {
+    text-decoration: none;
+}
+.navbar-brand p{
+    color:#000;
+    text-transform: uppercase;
+    font-size:  .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span{
+    vertical-align:  middle;
+}
+
+.colornav{
+    background-color: rgba(255, 230, 6, 0.589);
+    margin:5px;
+}
+.chicken{
+    background-color: rgba(54, 150, 228, 0.39);
+    margin: 2%;
+}
+.beef{
+    background-color: #d6fbbb;
+    margin: 2%
+}
+.sushi{
+    background-color: #f9d99a;
+    margin: 2%
+}
+.chicken div, .beef div, .sushi div{
+    text-align: center;
+    font-weight: bold;
+
+}
